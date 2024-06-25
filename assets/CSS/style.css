@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    background-color:#22222B;
+}
+.works{
+    color:#B1B1B7;
+    padding: 0 45px;
+    line-height: 24px;
+}
+.works:hover{
+    color: #fff;
+}
+.navigation-link{
+    gap: 18px;
+}
+.button-name{
+    font-size: 14px;
+    line-height:20px;
+    color: #3C3C4C;
+}
+.button{
+    background-color: #FAF3E5;
+    padding: 8px 18px;
+    border-radius: 4px;
+    gap: 10px;
+}
+.tabs{
+    color: #9D9DA5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 16px;
+}
+.tabs.active{
+    color: #C55A11;
+    border-bottom: #FFC000 solid 4px;
+    padding: 0 38px 14px 38px;
+
+}
+.page-section{
+    margin-top: 8px;
+}
+.nav{
+    gap:42px;
+}
+.listing{
+    background-color: #F5F5F6;
+    padding: 21px 0;
+}
+.arrow-icon{
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px;
+}
+.listing-para{
+    font-size: 18px;
+    line-height: 28px;
+    color: #9D9DA5;
+}
+.promote-btn{
+    padding: 9px 24px;
+    background-color: #C55A11;
+    font-size: 18px;
+    line-height: 28px;
+}
+.promote-btn:hover{
+    background-color: #ff6600;
+}
+.pencil{
+    background-color: #EBEBED;
+    padding: 11px;
+}
+.pencil:hover{
+    background-color: #ffffff;
+    padding: 11px;
+}
+.trash{
+    background-color: rgba(255, 59, 48, 0.08);
+    padding: 11px;
+}
+.trash:hover{
+    background-color: #ffffff;
+    padding: 11px;
+}
+.light-head{
+    font-size: 14px;
+    line-height: 20px;
+    color: #9D9DA5;
+}
+.bold-head{
+    color:#3C3C4C;
+    font-size:20px;
+    line-height: 30px;
+    width: 546px;
+    line-clamp: 2;
+}
+.bold-para{
+    color:#3C3C4C;
+    font-size:18px;
+    line-height: 28px;
+}
+.project-content{
+    gap: 20px;
+}
+.project-container{
+    margin: 42px 0;
+}
+.img-para{
+    font-size: 24px;
+    line-height: 32px;
+    color:  #FAF3E5;
+}
+.fa-angle-right{
+    color:#777782;
+    padding:5px 15px;
+    font-size: 24px;
+
+}
+.fa-angle-left{
+    color:#777782;
+    padding:5px 15px;
+    font-size: 24px;
+}
+.project-para{
+    color: #9D9DA5;
+    font-size: 18px;
+    line-height: 28px;
+}
+.summary-container{
+    margin-bottom: 70px;
+}
+.tab-container{
+    border: 1px solid#E5E5EA;
+    border-left:none ;
+    border-right: none;
+    padding: 18px 0;
+
+}
+.location-container{
+    padding-top: 36px;
+    padding-bottom: 80px;
+    background-color: #F5F5F6;
+}
+.lighter-head{
+    color: #5F5F6C;
+    font-size: 12px;
+    line-height: 18px;
+}
+.map{
+    width: 666px;
+    height: 312px;
+    background-image: url("../Images/map.png");
+}
+.map-btn{
+    padding: 32px;
+    width: 354px;
+
+}
+.enquire-btn{
+    font-size: 18px;
+    line-height: 28px;
+    padding: 12px 28px;
+    background-color: #3C3C4C;
+    color: #FAF3E5;
+    margin-bottom: 12px;
+}
+.enquire-btn:hover{
+    background-color: #64647e;
+    color: #FAF3E5;
+}
+.save-btn{
+    color: #3C3C4C;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 12px 24px;
+    background-color: #EBEBED;
+}
+.save-btn:hover{
+    background-color: #b6b6b6;
+}
+.map-content{
+    background-color: #F5F5F6;
+}
+.little-para{
+    color:  #3C3C4C;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.28px;
+}
+.color-link{
+    font-size: 14px;
+    line-height: 20px;
+}
+.opacity-para{
+    color: #84848E;
+    font-size: 14px;
+    line-height: 20px;
+}
+.form-head{
+    font-size: 14px;
+    line-height: 20px;
+    color:  #3C3C4C;
+}
+.text{
+    width: 630px;
+    height: 124px;
+    background-color: #F5F5F6;
+}
+.send-btn{
+    padding: 9px 40px;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #3C3C4C;
+    color: #FAF3E5;
+}
+footer{
+    background-color: #22222B;
+    padding:68px 0
+}
+.linkedin{
+    border: 1px #CF783C solid;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+}
+@media(max-width:992px){
+    .works{
+        padding: 0;
+    }
+    .button{
+        padding: 4px 9px;
+    }
+    .navigation-link{
+        gap: 9px;
+        padding: 25px 0;
+    }
+}
