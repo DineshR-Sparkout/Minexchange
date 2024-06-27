@@ -41,6 +41,7 @@ nav{
     gap: 42px;
 }
 .tabs{
+    font-size: 16px;
     color: #9D9DA5;
     line-height: 24px;
 }
@@ -331,4 +332,20 @@ footer{
 }
 .form-label{
     margin-bottom: 10px;
+}
+.linkedin-icon{
+    width: 24px;
+    height: 24px;
+}
+.linkedin:hover{
+    background-color:#C55A11;
+}
+.linkedin-path{
+    fill:#C55A11;
+}
+.linkedin:hover .linkedin-path{
+    fill:#22222B;
+}
+input[type=checkbox]{
+    accent-color: black;
 }
