@@ -143,6 +143,10 @@
     .footer-content{
         gap: 50px;
     }
+    .tab-container{
+        padding: 15px 0;
+
+    }
 }
 @media(max-width:991px){
     .works{
@@ -263,7 +267,15 @@
     .footer-head{
         padding-bottom: 8px;
     }
+    .tab-container{
+        padding: 12px 0;
+
+    }
+    .active-rule,.active-line{
+        height: 3px;
+    }
     
+
 }
 @media(max-width:767px){
     .navigation-link{
@@ -409,12 +421,16 @@
         gap: 20px;
     }
     .footer-content{
-        gap: 25px;
+        gap: 20px;
     }
     .footer-head{
         padding-bottom: 6px;
     }
-    
+    .tab-container{
+        padding: 9px 0;
+
+    }
+
 }
 @media(max-width:575px){
     .navigation-link{
@@ -422,7 +438,7 @@
         padding: 15px 0;
     }
     .tabs{
-        padding-bottom: 8px;
+        padding-bottom: 2px;
     }
     .promote-btn{
         padding-top:3px;
@@ -518,10 +534,17 @@
         gap: 10px;
     }
     .footer-content{
-        gap: 15px;
+        gap: 10px;
     }
     .footer-head{
         padding-bottom: 4px;
     }
+    .tab-container{
+        padding: 6px 0;
+
+    }
+    .active-rule,.active-line{
+        height: 2px;}
     
+
 }

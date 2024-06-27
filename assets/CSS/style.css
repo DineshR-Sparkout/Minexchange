@@ -179,6 +179,7 @@ nav{
     width: 50px;
     background-color: #FFC000;
     margin:auto;
+    border-radius: 23px;
 }
 .tab-container{
     border: 1px solid#E5E5EA;
