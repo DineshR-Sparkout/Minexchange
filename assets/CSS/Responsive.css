@@ -137,7 +137,12 @@
         padding:50px 0
 
     }
-    
+    .copy{
+        gap: 45px;
+    }
+    .footer-content{
+        gap: 50px;
+    }
 }
 @media(max-width:991px){
     .works{
@@ -249,7 +254,16 @@
         width: 20px;
         padding: 3px;
     }
-
+    .copy{
+        gap: 30px;
+    }
+    .footer-content{
+        gap: 35px;
+    }
+    .footer-head{
+        padding-bottom: 8px;
+    }
+    
 }
 @media(max-width:767px){
     .navigation-link{
@@ -391,8 +405,16 @@
         padding:30px 0
 
     }
-
-
+    .copy{
+        gap: 20px;
+    }
+    .footer-content{
+        gap: 25px;
+    }
+    .footer-head{
+        padding-bottom: 6px;
+    }
+    
 }
 @media(max-width:575px){
     .navigation-link{
@@ -492,5 +514,14 @@
         padding:20px 0
 
     }
-
+    .copy{
+        gap: 10px;
+    }
+    .footer-content{
+        gap: 15px;
+    }
+    .footer-head{
+        padding-bottom: 4px;
+    }
+    
 }

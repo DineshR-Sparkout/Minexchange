@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: "Poppins", sans-serif;
@@ -221,7 +222,7 @@ nav{
     color: #3C3C4C;
     font-size: 18px;
     line-height: 28px;
-    padding: 12px 0;
+    padding: 12px 24px;
     background-color: #EBEBED;
 }
 .save-btn:hover{
@@ -348,4 +349,13 @@ footer{
 }
 input[type=checkbox]{
     accent-color: black;
+}
+.footer-head{
+    padding-bottom: 12px;
+}
+.copy{
+    gap: 58px;
+}
+.footer-content{
+    gap: 65px;
 }
