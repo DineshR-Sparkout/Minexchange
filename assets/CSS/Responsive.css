@@ -9,6 +9,10 @@
         padding:60px 0
 
     }
+    .footer-content{
+        gap: 50px;
+    }
+
 }
 @media(max-width:1199px){
     .navigation-link{
@@ -139,9 +143,6 @@
     }
     .copy{
         gap: 45px;
-    }
-    .footer-content{
-        gap: 50px;
     }
     .tab-container{
         padding: 15px 0;

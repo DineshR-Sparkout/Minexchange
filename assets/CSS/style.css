@@ -32,7 +32,7 @@ nav{
     color: #3C3C4C;
 }
 .button:hover{
-    background-color:#FFC000;
+    background-color:#fff;
 }
 .navbar-toggler:focus{
     outline: none;
@@ -88,7 +88,7 @@ nav{
     border-radius: 8px;
 }
 .promote-btn:hover{
-    background-color: #ff6600;
+    background-color:#FFC000;
 }
 .pencil{
     background-color: #EBEBED;
@@ -96,7 +96,7 @@ nav{
 
 }
 .pencil:hover{
-    background-color: #ff6600;
+    background-color:#FFC000;
     cursor: pointer;
     fill: #fff;
 }
@@ -112,7 +112,7 @@ nav{
     stroke: white;
 }
 .trash:hover{
-    background-color: #ff6600;
+    background-color:#FFC000;
     fill: #fff;
     cursor: pointer;
 }
@@ -308,8 +308,11 @@ footer{
     right: 0;
     left: auto;
 }
+.hover-link{
+    color: #fff;
+}
 .hover-link:hover{
-    opacity: 80%;
+    color: #FFC000;
 }
 .page-container{
     border-bottom: 1px solid #D8D8DB;
@@ -341,6 +344,8 @@ footer{
 }
 .linkedin:hover{
     background-color:#C55A11;
+    border:#22222B;
+    cursor: pointer;
 }
 .linkedin-path{
     fill:#C55A11;
