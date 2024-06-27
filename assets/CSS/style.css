@@ -18,7 +18,7 @@ nav{
     font-size: 16px;
 }
 .works:hover{
-    color:#FFC000;
+    color:#C55A11;
 }
 .button{
     background-color: #FAF3E5;
@@ -48,6 +48,7 @@ nav{
 }
 .tabs:hover{
     color: #C55A11;
+    cursor: pointer;
 }
 .tabs.active{
     color: #C55A11;
@@ -59,7 +60,7 @@ nav{
     width: 100%;
     border-radius: 23px;
     background-color: #FFC000;
-    margin-top: 14px;
+    margin-top: 13px;
 }
 .listing{
     background-color: #F5F5F6;
@@ -76,6 +77,9 @@ nav{
     line-height: 28px;
     color: #9D9DA5;
 }
+.arrow:hover .listing-para{
+    color: #C55A11;
+}
 .btn-content{
     gap: 14px;
 }
@@ -88,7 +92,7 @@ nav{
     border-radius: 8px;
 }
 .promote-btn:hover{
-    background-color:#FFC000;
+    background-color:#3C3C4C;
 }
 .pencil{
     background-color: #EBEBED;
@@ -96,7 +100,7 @@ nav{
 
 }
 .pencil:hover{
-    background-color:#FFC000;
+    background-color:#C55A11;
     cursor: pointer;
     fill: #fff;
 }
@@ -112,7 +116,7 @@ nav{
     stroke: white;
 }
 .trash:hover{
-    background-color:#FFC000;
+    background-color:#C55A11;
     fill: #fff;
     cursor: pointer;
 }
@@ -148,6 +152,7 @@ nav{
     font-size: 24px;
     line-height: 32px;
     color:  #FAF3E5;
+
 }
 .mines{
     border-radius: 8px;
@@ -216,7 +221,7 @@ nav{
     color: #FAF3E5;
 }
 .enquire-btn:hover{
-    background-color:#FFC000;
+    background-color:#C55A11;
     color: #FAF3E5;
 }
 .save-btn{
@@ -227,7 +232,7 @@ nav{
     background-color: #EBEBED;
 }
 .save-btn:hover{
-    background-color: #FFC000;
+    background-color:#3C3C4C;
     color: white;
 }
 .map-content{
@@ -267,7 +272,7 @@ nav{
     color: #FAF3E5;
 }
 .send-btn:hover{
-    background-color: #FFC000;
+    background-color: #C55A11;
 }
 footer{
     background-color: #22222B;
@@ -300,13 +305,12 @@ footer{
 .img-para{
     position: absolute;
     border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.dropdown-menu[data-bs-popper]{
-    right: 0;
-    left: auto;
+.img-para:hover{
+    color: #C55A11;
 }
 .hover-link{
     color: #fff;
@@ -364,4 +368,28 @@ input[type=checkbox]{
 }
 .footer-content{
     gap: 65px;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.navbar-toggler:hover,.navbar-toggler:focus{
+    box-shadow: none;
+    background-color:#C55A11;
+}
+.navbar-toggler:hover .navbar-toggler-icon,.navbar-toggler:focus .navbar-toggler-icon{
+    color: white;
+}
+.navbar-toggler-icon{
+    background-image: none;
+    width: auto;
+    height: auto;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.nav-buttons{
+    gap: 18px;
+}
+.dropdown-menu{
+    background-color:#22222B ;
 }

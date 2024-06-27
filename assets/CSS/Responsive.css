@@ -47,16 +47,12 @@
     }
     .listing-para{
         font-size: 16px;
-        line-height: 24px;
 
     }
     .promote-btn{
         padding-top:8px;
         padding-bottom:8px;
         font-size: 17px;
-    }
-    .pencil,.trash{
-        padding: 8px;
     }
     .fs-6{
         font-size: 15px;
@@ -70,7 +66,6 @@
     }
     .bold-head{
         font-size:19px;
-        line-height: 24px;
     }
     .gold-head{
         padding-bottom: 35px;
@@ -83,18 +78,18 @@
     }
     .project-para{
         font-size: 17px;
-        line-height: 24px;
         
     }
     .nav{
-        gap: 35px;
+        gap: 40px;
     }
     .enquire-btn,.save-btn{
         font-size: 17px;
         padding: 10px 25px;
     }
     .img-para{
-        font-size: 22px;
+        font-size: 20px;
+        line-height: 30px;
 
     }    
     .summary-gap{
@@ -131,9 +126,6 @@
         padding: 8px 30px;
         font-size: 16px;
     }
-    .arrow{
-        gap: 12px;
-    }
     .form-label{
         margin-bottom: 8px;
     }
@@ -148,6 +140,7 @@
         padding: 15px 0;
 
     }
+
 }
 @media(max-width:991px){
     .works{
@@ -156,9 +149,6 @@
     .navigation-link{
         gap: 9px;
         padding: 25px 0;
-    }
-    .pencil,.trash{
-        padding: 7px;
     }
     .tabs.active{
         padding-left:20px;
@@ -173,7 +163,6 @@
     }
     .bold-head{
         font-size:18px;
-        line-height: 22px;
     }
     .gold-head{
         padding-bottom: 30px;
@@ -186,18 +175,18 @@
     }
     .project-para{
         font-size: 16px;
-        line-height: 20px;
         
     }
     .nav{
-        gap: 25px;
+        gap: 30px;
     }
     .enquire-btn,.save-btn{
         font-size: 16px;
         padding: 8px 20px;
     }
     .img-para{
-        font-size: 20px;
+        font-size:18px;
+        line-height: 28px;
     }
     .summary-container{
         margin-bottom: 50px;
@@ -213,18 +202,22 @@
     }
     .map-btn{
         padding: 25px;
-        margin: 0;
+        margin-left: 0;
+        margin-top:16px; 
     
     }
     .send-btn{
         padding: 7px 25px;
         font-size: 15px;
     }
-    .navbar-toggler{
+    .navbar-toggler-icon{
         font-size: 14px;
     }
+    .navbar-toggler{
+        padding: 3px 10px;
+    }
     .arrow{
-        gap: 9px;
+        gap: 12px;
     }
     .active-line{
         margin-top: 6px;
@@ -275,7 +268,15 @@
     .active-rule,.active-line{
         height: 3px;
     }
-    
+    .nav-buttons{
+        gap: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .pencil,.trash{
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
 
 }
 @media(max-width:767px){
@@ -307,16 +308,12 @@
     }
     .listing-para{
         font-size: 14px;
-        line-height: 20px;
 
     }
     .promote-btn{
         padding-top:5px;
         padding-bottom:5px;
         font-size: 16px;
-    }
-    .pencil,.trash{
-        padding: 5px;
     }
     .fs-6{
         font-size: 14px;
@@ -326,7 +323,6 @@
     }
     .bold-head{
         font-size:17px;
-        line-height: 20px;
     }
     .gold-head{
         padding-bottom: 20px;
@@ -342,6 +338,7 @@
     }
     .project-para{
         font-size: 14px;
+        line-height: 25px
         
     }
     .tabs.active{
@@ -349,14 +346,15 @@
         padding-right:10px;
     }
     .nav{
-        gap: 15px;
+        gap: 25px;
     }
     .enquire-btn,.save-btn{
         font-size: 15px;
         padding: 7px 15px;
     }
     .img-para{
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 26px;
     }
     .summary-container{
         margin-bottom: 35px;
@@ -372,11 +370,11 @@
     }
     .map-btn{
         padding: 20px;
+        margin-top: 8px;
     
     }
     .little-para,.color-link,.opacity-para,.form-head{
         font-size: 12px;
-        line-height: 18px;
     }
     .text{
         padding: 9px 14px;
@@ -387,10 +385,6 @@
     .send-btn{
         padding: 6px 15px;
         font-size: 14px;
-        line-height: 24px;
-    }
-    .arrow{
-        gap: 6px;
     }
     .active-line{
         margin-top: 2px;
@@ -411,9 +405,6 @@
     .form-label{
         margin-bottom: 4px;
     }
-    .col-4{
-        padding: 6px;
-    }
     footer{
         padding:30px 0
 
@@ -431,6 +422,17 @@
         padding: 9px 0;
 
     }
+    .nav-buttons{
+        gap: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+
+    }
+    .pencil,.trash{
+        padding: 6px 8px;        
+    }
+
+
 
 }
 @media(max-width:575px){
@@ -448,7 +450,8 @@
         
     }
     .pencil,.trash{
-        padding: 3px;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
     .project-container{
         margin: 20px 0;
@@ -473,14 +476,15 @@
         padding: 0;
     }
     .nav{
-        gap: 5px;
+        gap: 20px;
     }
     .enquire-btn,.save-btn{
         font-size: 13px;
         padding: 6px 10px;
     }
     .img-para{
-        font-size: 16px;
+        font-size: 14px;
+        line-height: normal
     }
     .button{
         padding: 4px 8px;
@@ -506,9 +510,6 @@
         padding: 5px 10px;
         font-size: 13px;
     }
-    .arrow{
-        gap: 3px;
-    }
     .project-content{
         gap: 10px;
     }
@@ -523,9 +524,6 @@
     }
     .form-label{
         margin-bottom: 2px;
-    }
-    .col-4{
-        padding: 4px;
     }
     footer{
         padding:20px 0
@@ -545,7 +543,22 @@
 
     }
     .active-rule,.active-line{
-        height: 2px;}
+        height: 2px;
+    }
+    .nav-buttons{
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
     
 
+}
+@media(max-width:400px){
+    .img-para{
+        font-size: 12px;
+    }
+    .nav{
+        gap: 15px;
+    }
 }
