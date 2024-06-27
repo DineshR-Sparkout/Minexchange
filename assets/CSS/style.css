@@ -8,46 +8,56 @@ body{
 nav{
     background-color:#22222B;
 }
-.works{
-    color:#B1B1B7;
-    padding: 0 45px;
-    line-height: 24px;
-}
-.works:hover{
-    color: #fff;
-}
 .navigation-link{
     gap: 18px;
+}
+.works{
+    color:#B1B1B7;
+    line-height: 24px;
+    font-size: 16px;
+}
+.works:hover{
+    color:#FFC000;
+}
+.button{
+    background-color: #FAF3E5;
+    padding-right:18px;
+    padding-left:18px;
+    gap: 10px;
 }
 .button-name{
     font-size: 14px;
     line-height:20px;
     color: #3C3C4C;
 }
-.button{
-    background-color: #FAF3E5;
-    padding: 8px 18px;
-    border-radius: 4px;
-    gap: 10px;
+.button:hover{
+    background-color:#FFC000;
+}
+.navbar-toggler:focus{
+    outline: none;
+    border: none;
+}
+.nav{
+    gap: 42px;
 }
 .tabs{
     color: #9D9DA5;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
-    padding-bottom: 16px;
+}
+.tabs:hover{
+    color: #C55A11;
 }
 .tabs.active{
     color: #C55A11;
-    border-bottom: #FFC000 solid 4px;
-    padding: 0 38px 14px 38px;
-
+    padding-left:38px;
+    padding-right:38px;
 }
-.page-section{
-    margin-top: 8px;
-}
-.nav{
-    gap:42px;
+.active-line{
+    height: 4px;
+    width: 100%;
+    border-radius: 23px;
+    background-color: #FFC000;
+    margin-top: 14px;
 }
 .listing{
     background-color: #F5F5F6;
@@ -55,19 +65,25 @@ nav{
 }
 .arrow-icon{
     padding: 10px;
-    gap: 10px;
-    border-radius: 8px;
+}
+.arrow{
+    gap: 15px;
 }
 .listing-para{
     font-size: 18px;
     line-height: 28px;
     color: #9D9DA5;
 }
+.btn-content{
+    gap: 14px;
+}
 .promote-btn{
-    padding: 9px 24px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     background-color: #C55A11;
     font-size: 18px;
     line-height: 28px;
+    border-radius: 8px;
 }
 .promote-btn:hover{
     background-color: #ff6600;
@@ -75,18 +91,32 @@ nav{
 .pencil{
     background-color: #EBEBED;
     padding: 11px;
+
 }
 .pencil:hover{
-    background-color: #ffffff;
-    padding: 11px;
+    background-color: #ff6600;
+    cursor: pointer;
+    fill: #fff;
 }
 .trash{
     background-color: rgba(255, 59, 48, 0.08);
     padding: 11px;
+
+}
+.pencil:hover .pencil-icon{
+    stroke:white;
+}
+.trash:hover .trash-icon{
+    stroke: white;
 }
 .trash:hover{
-    background-color: #ffffff;
-    padding: 11px;
+    background-color: #ff6600;
+    fill: #fff;
+    cursor: pointer;
+}
+.write,.dust{
+    width: 24px;
+    height: 24px;
 }
 .light-head{
     font-size: 14px;
@@ -97,8 +127,9 @@ nav{
     color:#3C3C4C;
     font-size:20px;
     line-height: 30px;
-    width: 546px;
-    line-clamp: 2;
+}
+.gold-head{
+    padding-bottom: 42px;
 }
 .bold-para{
     color:#3C3C4C;
@@ -115,6 +146,9 @@ nav{
     font-size: 24px;
     line-height: 32px;
     color:  #FAF3E5;
+}
+.mines{
+    border-radius: 8px;
 }
 .fa-angle-right{
     color:#777782;
@@ -133,7 +167,16 @@ nav{
     line-height: 28px;
 }
 .summary-container{
-    margin-bottom: 70px;
+    margin-bottom: 69px;
+}
+.summary-gap{
+    margin-bottom: 27px;
+}
+.active-rule{
+    height: 4px;
+    width: 50px;
+    background-color: #FFC000;
+    margin:auto;
 }
 .tab-container{
     border: 1px solid#E5E5EA;
@@ -152,14 +195,14 @@ nav{
     font-size: 12px;
     line-height: 18px;
 }
-.map{
-    width: 666px;
-    height: 312px;
-    background-image: url("../Images/map.png");
+.ten{
+    margin-bottom: 21px;
+    margin-top: 21px;
 }
 .map-btn{
     padding: 32px;
-    width: 354px;
+    margin-left: 38px;
+    gap: 12px;
 
 }
 .enquire-btn{
@@ -168,24 +211,25 @@ nav{
     padding: 12px 28px;
     background-color: #3C3C4C;
     color: #FAF3E5;
-    margin-bottom: 12px;
 }
 .enquire-btn:hover{
-    background-color: #64647e;
+    background-color:#FFC000;
     color: #FAF3E5;
 }
 .save-btn{
     color: #3C3C4C;
     font-size: 18px;
     line-height: 28px;
-    padding: 12px 24px;
+    padding: 12px 0;
     background-color: #EBEBED;
 }
 .save-btn:hover{
-    background-color: #b6b6b6;
+    background-color: #FFC000;
+    color: white;
 }
 .map-content{
     background-color: #F5F5F6;
+    padding: 12px;
 }
 .little-para{
     color:  #3C3C4C;
@@ -208,9 +252,9 @@ nav{
     color:  #3C3C4C;
 }
 .text{
-    width: 630px;
     height: 124px;
     background-color: #F5F5F6;
+    padding: 13px 18px;
 }
 .send-btn{
     padding: 9px 40px;
@@ -218,6 +262,9 @@ nav{
     line-height: 28px;
     background-color: #3C3C4C;
     color: #FAF3E5;
+}
+.send-btn:hover{
+    background-color: #FFC000;
 }
 footer{
     background-color: #22222B;
@@ -229,15 +276,59 @@ footer{
     height: 50px;
     width: 50px;
 }
-@media(max-width:992px){
-    .works{
-        padding: 0;
-    }
-    .button{
-        padding: 4px 9px;
-    }
-    .navigation-link{
-        gap: 9px;
-        padding: 25px 0;
-    }
+::placeholder{
+    color: #C5C5C9;
+    font-size: 14px;
+    letter-spacing: -0.28px;
+}
+
+.overlay {
+    position: relative;
+}
+.overlay::before {
+    content: "";
+    position: absolute;
+    background-color:rgba(0, 0,0,0.5);
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+
+}
+.img-para{
+    position: absolute;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-menu[data-bs-popper]{
+    right: 0;
+    left: auto;
+}
+.hover-link:hover{
+    opacity: 80%;
+}
+.page-container{
+    border-bottom: 1px solid #D8D8DB;
+}
+.carousel{
+    padding-bottom: 14px;
+}
+.carousel-control-next,.carousel-control-prev{
+    width: fit-content;
+}
+.location-inside{
+    padding: 28px;
+}
+.map-gap{
+    gap: 21px;
+}
+.location-content-inside{
+    padding: 18px;
+}
+.input[checked]{
+    background-color: #22222B;
+}
+.form-label{
+    margin-bottom: 10px;
 }

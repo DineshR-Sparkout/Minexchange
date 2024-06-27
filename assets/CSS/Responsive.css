@@ -1,0 +1,460 @@
+@media(max-width:1399px){
+    .navigation-link{
+        gap: 15px;
+    }
+    .works{
+        padding: 0 40px;
+    }
+    
+}
+@media(max-width:1199px){
+    .navigation-link{
+        gap: 12px;
+    }
+    .works{
+        padding: 0 35px;
+        font-size: 15px;
+    }
+    .button-name{
+        font-size: 13px;
+    }
+    .button{
+        padding: 6px 12px;
+        gap: 8px;
+    }
+    .tabs{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .tabs.active{
+        padding-left:30px;
+        padding-right:30px;
+        }
+
+    .listing{
+        padding: 18px 0;
+    }
+    .arrow-icon{
+        padding: 8px;
+        gap: 8px;
+    }
+    .listing-para{
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+    .promote-btn{
+        padding-top:8px;
+        padding-bottom:8px;
+        font-size: 17px;
+    }
+    .pencil,.trash{
+        padding: 8px;
+    }
+    .fs-6{
+        font-size: 15px;
+    }
+    .write,.dust{
+        width: 20px;
+        height: 20px;
+    }
+    .project-container{
+        margin: 35px 0;
+    }
+    .bold-head{
+        font-size:19px;
+        line-height: 24px;
+    }
+    .gold-head{
+        padding-bottom: 35px;
+    }
+    .light-head{
+        font-size: 13px;
+    }
+    .bold-para{
+        font-size:17px;
+    }
+    .project-para{
+        font-size: 17px;
+        line-height: 24px;
+        
+    }
+    .nav{
+        gap: 35px;
+    }
+    .enquire-btn,.save-btn{
+        font-size: 17px;
+        padding: 10px 25px;
+    }
+    .img-para{
+        font-size: 22px;
+
+    }    
+    .summary-gap{
+        margin-bottom: 25px;
+    }
+    .summary-container{
+        margin-bottom: 60px;
+    }
+    .location-container{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    
+    }
+    .ten{
+        margin-bottom: 21px;
+        margin-top: 21px;
+    }
+    .map-btn{
+        padding: 30px;
+        margin-left: 30px;
+    
+    }
+    .little-para,.color-link,.opacity-para,.form-head{
+        font-size: 13px;
+    
+    }
+    .text{
+        padding: 11px 16px;
+    }
+    ::placeholder{
+        font-size: 13px;
+    }
+    .send-btn{
+        padding: 8px 30px;
+        font-size: 16px;
+    }
+    .arrow{
+        gap: 12px;
+    }
+    .form-label{
+        margin-bottom: 8px;
+    }
+
+    
+}
+@media(max-width:991px){
+    .works{
+        padding: 0;
+    }
+    .navigation-link{
+        gap: 9px;
+        padding: 25px 0;
+    }
+    .pencil,.trash{
+        padding: 7px;
+    }
+    .tabs.active{
+        padding-left:20px;
+        padding-right:20px;
+        }
+    .promote-btn{
+        padding-top:7px;
+        padding-bottom:7px;
+    }
+    .project-container{
+        margin: 30px 0;
+    }
+    .bold-head{
+        font-size:18px;
+        line-height: 22px;
+    }
+    .gold-head{
+        padding-bottom: 30px;
+    }
+    .bold-para{
+        font-size:16px;
+    }
+    .summary-gap{
+        margin-bottom: 20px;
+    }
+    .project-para{
+        font-size: 16px;
+        line-height: 20px;
+        
+    }
+    .nav{
+        gap: 30px;
+    }
+    .enquire-btn,.save-btn{
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+    .img-para{
+        font-size: 20px;
+    }
+    .summary-container{
+        margin-bottom: 50px;
+    }
+    .location-container{
+        padding-top: 25px;
+        padding-bottom: 40px;
+    
+    }
+    .ten{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .map-btn{
+        padding: 25px;
+        margin: 0;
+    
+    }
+    .send-btn{
+        padding: 7px 25px;
+        font-size: 15px;
+    }
+    .navbar-toggler{
+        font-size: 14px;
+    }
+    .arrow{
+        gap: 9px;
+    }
+    .active-line{
+        margin-top: 6px;
+
+    }
+    .project-content{
+        gap: 15px;
+    }
+    .location-inside{
+        padding: 25px;
+    }
+    .map-gap{
+        gap: 18px;
+    }
+    .location-content-inside{
+        padding: 15px;
+    }
+    .form-label{
+        margin-bottom: 6px;
+    }
+
+}
+@media(max-width:767px){
+    .navigation-link{
+        gap: 6px;
+        padding: 20px 0;
+    }
+    .works{
+        padding: 0 35px;
+        font-size: 14px;
+    }
+    .button-name{
+        font-size: 12px;
+    }
+    .button{
+        padding: 5px 10px;
+        gap: 6px;
+    }
+    .tabs{
+        font-size: 14px;
+    }
+    .listing{
+        padding: 15px 0;
+
+    }
+    .arrow-icon{
+        padding: 6px;
+        gap: 6px;
+    }
+    .listing-para{
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+    .promote-btn{
+        padding-top:5px;
+        padding-bottom:5px;
+        font-size: 16px;
+    }
+    .pencil,.trash{
+        padding: 5px;
+    }
+    .fs-6{
+        font-size: 14px;
+    }
+    .project-container{
+        margin: 25px 0;
+    }
+    .bold-head{
+        font-size:17px;
+        line-height: 20px;
+    }
+    .gold-head{
+        padding-bottom: 20px;
+    }
+    .light-head{
+        font-size: 12px;
+    }
+    .bold-para{
+        font-size:15px;
+    }
+    .summary-gap{
+        margin-bottom: 15px;
+    }
+    .project-para{
+        font-size: 14px;
+        
+    }
+    .tabs.active{
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .nav{
+        gap: 25px;
+    }
+    .enquire-btn,.save-btn{
+        font-size: 15px;
+        padding: 7px 15px;
+    }
+    .img-para{
+        font-size: 18px;
+    }
+    .summary-container{
+        margin-bottom: 35px;
+    }
+    .location-container{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    
+    }
+    .ten{
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+    .map-btn{
+        padding: 20px;
+    
+    }
+    .little-para,.color-link,.opacity-para,.form-head{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .text{
+        padding: 9px 14px;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    .send-btn{
+        padding: 6px 15px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .arrow{
+        gap: 6px;
+    }
+    .active-line{
+        margin-top: 2px;
+
+    }
+    .carousel{
+        padding-bottom: 10px;
+    }
+    .location-inside{
+        padding: 20px;
+    }
+    .map-gap{
+        gap: 15px;
+    }
+    .location-content-inside{
+        padding: 12px;
+    }
+    .form-label{
+        margin-bottom: 4px;
+    }
+
+}
+@media(max-width:575px){
+    .navigation-link{
+        gap: 3px;
+        padding: 15px 0;
+    }
+    .tabs{
+        padding-bottom: 8px;
+    }
+    .promote-btn{
+        padding-top:3px;
+        padding-bottom:3px;
+        font-size: 14px;
+        
+    }
+    .pencil,.trash{
+        padding: 3px;
+    }
+    .project-container{
+        margin: 20px 0;
+    }
+    .bold-head{
+        font-size:16px;
+    }
+    .gold-head{
+        padding-bottom: 10px;
+    }
+    .bold-para{
+        font-size:14px;
+    }
+    .summary-gap{
+        margin-bottom: 10px;
+    }
+    .project-para{
+        font-size: 13px;
+        
+    }
+    .tabs.active{
+        padding: 0;
+    }
+    .nav{
+        gap: 20px;
+    }
+    .enquire-btn,.save-btn{
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+    .img-para{
+        font-size: 16px;
+    }
+    .button{
+        padding: 4px 8px;
+        gap: 4px;
+    }
+    .summary-container{
+        margin-bottom: 20px;
+    }
+    .location-container{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    
+    }
+    .ten{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .map-btn{
+        padding: 15px;
+    
+    }
+    .send-btn{
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .arrow{
+        gap: 3px;
+    }
+    .project-content{
+        gap: 10px;
+    }
+    .location-inside{
+        padding: 15px;
+    }
+    .map-gap{
+        gap: 12px;
+    }
+    .location-content-inside{
+        padding: 10px;
+    }
+    .form-label{
+        margin-bottom: 2px;
+    }
+}
