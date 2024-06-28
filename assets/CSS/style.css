@@ -159,7 +159,6 @@ nav{
     font-size: 24px;
     line-height: 32px;
     color:  #FAF3E5;
-
 }
 .mines{
     border-radius: 8px;
@@ -168,7 +167,6 @@ nav{
     color:#777782;
     padding:5px 15px;
     font-size: 24px;
-
 }
 .fa-angle-left{
     color:#777782;
@@ -198,7 +196,6 @@ nav{
     border-left:none ;
     border-right: none;
     padding: 18px 0;
-
 }
 .location-container{
     padding-top: 36px;
@@ -218,7 +215,6 @@ nav{
     padding: 32px;
     margin-left: 38px;
     gap: 12px;
-
 }
 .enquire-btn{
     font-size: 18px;
@@ -296,7 +292,6 @@ footer{
     font-size: 14px;
     letter-spacing: -0.28px;
 }
-
 .overlay {
     position: relative;
 }
@@ -307,7 +302,6 @@ footer{
     border-radius: 8px;
     width: 100%;
     height: 100%;
-
 }
 .img-para{
     position: absolute;

@@ -7,12 +7,10 @@
     }
     footer{
         padding:60px 0
-
     }
     .footer-content{
         gap: 50px;
     }
-
 }
 @media(max-width:1199px){
     .navigation-link{
@@ -36,8 +34,7 @@
     .tabs.active{
         padding-left:30px;
         padding-right:30px;
-        }
-
+    }
     .listing{
         padding: 18px 0;
     }
@@ -47,7 +44,6 @@
     }
     .listing-para{
         font-size: 16px;
-
     }
     .promote-btn{
         padding-top:8px;
@@ -77,8 +73,7 @@
         font-size:17px;
     }
     .project-para{
-        font-size: 17px;
-        
+        font-size: 17px;    
     }
     .nav{
         gap: 40px;
@@ -90,7 +85,6 @@
     .img-para{
         font-size: 20px;
         line-height: 30px;
-
     }    
     .summary-gap{
         margin-bottom: 25px;
@@ -101,7 +95,6 @@
     .location-container{
         padding-top: 30px;
         padding-bottom: 60px;
-    
     }
     .ten{
         margin-bottom: 21px;
@@ -110,11 +103,9 @@
     .map-btn{
         padding: 30px;
         margin-left: 30px;
-    
     }
     .little-para,.color-link,.opacity-para,.form-head{
         font-size: 13px;
-    
     }
     .text{
         padding: 11px 16px;
@@ -131,16 +122,13 @@
     }
     footer{
         padding:50px 0
-
     }
     .copy{
         gap: 45px;
     }
     .tab-container{
         padding: 15px 0;
-
     }
-
 }
 @media(max-width:991px){
     .works{
@@ -174,8 +162,7 @@
         margin-bottom: 20px;
     }
     .project-para{
-        font-size: 16px;
-        
+        font-size: 16px;    
     }
     .nav{
         gap: 30px;
@@ -194,7 +181,6 @@
     .location-container{
         padding-top: 25px;
         padding-bottom: 40px;
-    
     }
     .ten{
         margin-bottom: 15px;
@@ -204,7 +190,6 @@
         padding: 25px;
         margin-left: 0;
         margin-top:16px; 
-    
     }
     .send-btn{
         padding: 7px 25px;
@@ -221,7 +206,6 @@
     }
     .active-line{
         margin-top: 6px;
-
     }
     .project-content{
         gap: 15px;
@@ -240,12 +224,10 @@
     }
     footer{
         padding:40px 0
-
     }
     .linkedin-icon{
         width: 20px;
         height: 20px;
-    
     }
     .linekedin{
         height: 20px;
@@ -263,7 +245,6 @@
     }
     .tab-container{
         padding: 12px 0;
-
     }
     .active-rule,.active-line{
         height: 3px;
@@ -277,7 +258,6 @@
         padding-top: 9px;
         padding-bottom: 9px;
     }
-
 }
 @media(max-width:767px){
     .navigation-link{
@@ -338,8 +318,7 @@
     }
     .project-para{
         font-size: 14px;
-        line-height: 25px
-        
+        line-height: 25px;    
     }
     .tabs.active{
         padding-left:10px;
@@ -371,7 +350,6 @@
     .map-btn{
         padding: 20px;
         margin-top: 8px;
-    
     }
     .little-para,.color-link,.opacity-para,.form-head{
         font-size: 12px;
@@ -388,7 +366,6 @@
     }
     .active-line{
         margin-top: 2px;
-
     }
     .carousel{
         padding-bottom: 10px;
@@ -407,7 +384,6 @@
     }
     footer{
         padding:30px 0
-
     }
     .copy{
         gap: 20px;
@@ -420,20 +396,15 @@
     }
     .tab-container{
         padding: 9px 0;
-
     }
     .nav-buttons{
         gap: 12px;
         margin-top: 12px;
         margin-bottom: 12px;
-
     }
     .pencil,.trash{
         padding: 6px 8px;        
     }
-
-
-
 }
 @media(max-width:575px){
     .navigation-link{
@@ -446,8 +417,7 @@
     .promote-btn{
         padding-top:3px;
         padding-bottom:3px;
-        font-size: 14px;
-        
+        font-size: 14px;    
     }
     .pencil,.trash{
         padding-top: 3px;
@@ -469,8 +439,7 @@
         margin-bottom: 10px;
     }
     .project-para{
-        font-size: 13px;
-        
+        font-size: 13px;    
     }
     .tabs.active{
         padding: 0;
@@ -496,7 +465,6 @@
     .location-container{
         padding-top: 10px;
         padding-bottom: 20px;
-    
     }
     .ten{
         margin-bottom: 10px;
@@ -504,7 +472,6 @@
     }
     .map-btn{
         padding: 15px;
-    
     }
     .send-btn{
         padding: 5px 10px;
@@ -527,7 +494,6 @@
     }
     footer{
         padding:20px 0
-
     }
     .copy{
         gap: 10px;
@@ -540,7 +506,6 @@
     }
     .tab-container{
         padding: 6px 0;
-
     }
     .active-rule,.active-line{
         height: 2px;
@@ -549,10 +514,7 @@
         gap: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
-
     }
-    
-
 }
 @media(max-width:400px){
     .img-para{
