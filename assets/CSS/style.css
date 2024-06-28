@@ -406,3 +406,6 @@ textarea:focus{
     background-color:white;
     padding: 2px;
 }
+.gap-w2{
+    gap:2px
+}
