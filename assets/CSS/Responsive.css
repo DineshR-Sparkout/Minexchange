@@ -39,7 +39,7 @@
         padding: 18px 0;
     }
     .arrow-icon{
-        padding: 8px;
+        padding: 4px 8px;
         gap: 8px;
     }
     .listing-para{
@@ -283,7 +283,7 @@
 
     }
     .arrow-icon{
-        padding: 6px;
+        padding: 3px 6px;
         gap: 6px;
     }
     .listing-para{
@@ -404,6 +404,10 @@
     }
     .pencil,.trash{
         padding: 6px 8px;        
+    }
+    .arrow-left{
+        width: 20px;
+        height: 17px;
     }
 }
 @media(max-width:575px){
