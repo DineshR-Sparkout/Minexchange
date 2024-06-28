@@ -398,3 +398,7 @@ input[type=checkbox]{
     width: 24px;
     height: 24px;
 }
+textarea:focus{
+    border: none;
+    outline: #3C3C4C solid 2px;
+}
