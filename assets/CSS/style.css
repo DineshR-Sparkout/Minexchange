@@ -402,3 +402,7 @@ textarea:focus{
     border: none;
     outline: #3C3C4C solid 2px;
 }
+.dropdown-divider{
+    background-color:white;
+    padding: 2px;
+}
